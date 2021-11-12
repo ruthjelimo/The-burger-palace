@@ -1,11 +1,40 @@
-.header{
-    width: 20px;
-    font-size: 5rem;
-    align-content: center;
-     display: inline;
-    
+
+
+.articlefirst_div{
+  background: linear-gradient(110deg,#FFFFFF 52%,#FEC130 52%) ;
+  float:left;
+  width: 100%;
+  height: auto;
+
+   
 }
-     
+.first_div .nav_bar li{
+  display: inline;
+  float: right;
+  padding: 56px;
+}
+.nav_bar li img{
+  height:2em;
+  width: 2em;
+}
+.nav_bar li{
+  display: inline;
+  padding: 80px;
+
+}
+.first_div.burger_advert{
+  display: flex;
+  justify-content: space-around;
+}
+.first_div.burger_advert.b_text{
+  display: block;
+  font-size: x-large;
+}
+.burger_advert.burger_img img{
+  display: block;
+  height: 600px; width: 400px;
+  padding-right: 250px;
+}
 
  .span{
    color: yellow;
@@ -13,18 +42,10 @@
  .column10{
    background-color: yellow;
  }
- .ul{
- display: inline;
- list-style-type: none;
- 
- }
- ul{
+ li{
    list-style-type: none;
  }
- .li{
-   padding: 2rem 5rem;
-   display:inline;
- }
+
  .cart{
    width: 60px;
    height: 30px;
@@ -40,9 +61,9 @@
  .section6{
    display: flex;
    flex-direction: row;
-   min-height: 20vh;
+   
    padding: 2rem;
-   margin-bottom: 7rem;
+   margin-bottom: 5rem;
    justify-content:space-evenly;
    background-color: #F6B400;
    min-width: 100vh !important;
@@ -50,10 +71,10 @@
  .section2{
  display: flex;
  flex-direction: row;
- min-height: 20vh;
- padding: 2rem;
- margin-bottom: 7rem;
- justify-content: space-evenly;
+ margin-top: 30%;
+ background-color: whitesmoke;
+
+
  }
  .section3{
    display: flex;
@@ -63,6 +84,15 @@
    margin-bottom: 7rem;
    justify-content: space-evenly;
    }
+   .section4{
+    display: flex;
+    flex-direction: row;
+    min-height: 20vh;
+    
+    padding: 2rem;
+    margin-bottom: 7rem;
+    justify-content: space-evenly;
+    }
    .grid{
      display: flex;
      flex-direction: row;
@@ -83,28 +113,43 @@
      border: 0.6px solid grey;
    }
  .column3{
-   align-items: center;
-   padding: 2rem;
-   border: 0.1rem solid grey;
-   border-radius: 3rem;
-   background-color: white;
-   text-align: center;
- }
+    align-items: center;
+    padding: 2rem;
+    border: 0.1rem solid whitesmoke;
+    border-radius: 3rem;
+    background-color: white;
+    text-align: center;
+    margin:2%;
+    margin-top: 1%;
+  }
+ 
  .column2{
    align-items: center;
    padding: 2rem;
-   border: 0.1rem solid grey;
+   border: 0.1rem solid whitesmoke;
    border-radius: 3rem;
    background-color: white;
    text-align: center;
+   margin:2%;
  }
  .column1{
-   align-items: center;
-   padding: 2rem;
-   border: 0.1rem solid grey;
-   border-radius: 3rem;
-   background-color: white;
-   text-align: center;
+  align-items: center;
+  padding: 2rem;
+  border: 0.1rem solid grey;
+  border-radius: 3rem;
+  background-color: white;
+  text-align: center;
+  margin:4%;
+}
+.big{
+  align-items: center;
+  padding: 4rem;
+  border: 0.1rem solid grey;
+  border-radius: 3rem;
+  background-color: white;
+  text-align: center;
+  margin:2%;
+  border-radius: 15%;
  }
  .container{
    max-width: 1200px;
@@ -113,19 +158,12 @@
     .p {
        align-content:center;
    } 
- .li{
-    display: inline;
-    list-style: none;
-   padding: 5px;
+ 
+ .span{
+   color: orange;
  }
- span{
-   color: yellow;
- }
- .li
- {
-   display: inline;
-   list-style-type: none;
- }
+ 
+ 
  img{
    max-height: 200px;
    max-width: 200px;
@@ -142,6 +180,54 @@
  .column10{
      flex: 2 1 auto;
    }
- 
-     
-   
+   .p {
+    align-content:center;
+} 
+.li{
+ display: inline;
+ list-style: none;
+padding: 5px;
+}
+span{
+color: yellow;
+}
+.li
+{
+display: inline;
+list-style-type: none;
+}
+img{
+max-height: 200px;
+max-width: 200px;
+object-fit: contain;
+}
+
+.section1{
+display: flex;
+flex-direction: row;
+height: 30vh;
+padding: 2rem;
+justify-content: space-between;
+}
+.column10{
+  flex: 2 1 auto;
+}
+.column7{
+  display: flex;
+}
+footer{
+  display: flex;
+}
+footer ul{
+  padding-left: 200px;
+  padding-right: 500px;
+}
+.section12{
+  display:flex;
+}
+.section12 .png{
+  padding-right:500px;
+  padding-left:200px;
+  margin-top: 100px;
+}
+
