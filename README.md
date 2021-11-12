@@ -14,6 +14,7 @@ A website that tells more about the burger palace
  So as to access the project on your local file,you have to clone it using the steps below
    1.open the terminal.press CTRL+ALT+T
    2.Use this command to clone's git clone 
+   https://github.com/ruthjelimo/The-burger-palace.git
    
    
    
