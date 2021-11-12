@@ -16,6 +16,7 @@ A website that tells more about the burger palace
    2.Use this command to clone's git clone 
    
    
+   
    3.this will clone the repository into your local browser
 ##Tech used
    HTML
@@ -26,6 +27,6 @@ A website that tells more about the burger palace
  The project is under the [MIT](license) license
  
  ##livesite
-     
+   https://ruthjelimo.github.io/The-burger-palace/  
    
 
