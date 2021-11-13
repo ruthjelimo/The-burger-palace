@@ -1,27 +1,28 @@
 
-
 .articlefirst_div{
   background: linear-gradient(110deg,#FFFFFF 52%,#FEC130 52%) ;
-  float:left;
-  width: 100%;
-  height: auto;
 
-   
+  width: 100%;
+ 
 }
-.first_div .nav_bar li{
-  display: inline;
-  float: right;
-  padding: 56px;
+.nav_bar{
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
 }
-.nav_bar li img{
-  height:2em;
-  width: 2em;
-}
+
 .nav_bar li{
   display: inline;
-  padding: 80px;
-
+  padding: 60px;
+  padding-top: 30px; 
+  
 }
+.image2{
+  margin-bottom: 20px;
+  margin-left:-300px;
+  margin-top: -20px;
+}
+
 .first_div.burger_advert{
   display: flex;
   justify-content: space-around;
@@ -47,13 +48,15 @@
  }
 
  .cart{
-   width: 60px;
-   height: 30px;
-  
- }
- .imageSize{
+  width: 60px;
+  height: 30px;
+ 
+}
+ .image{
    width: 50%;
    margin: auto;
+   float: right;
+   margin-top: -200px;
  }
  .text{
    text-align: center;
@@ -61,34 +64,21 @@
  .section6{
    display: flex;
    flex-direction: row;
-   
    padding: 2rem;
-   margin-bottom: 5rem;
    justify-content:space-evenly;
    background-color: #F6B400;
-   min-width: 100vh !important;
-   }
- .section2{
- display: flex;
- flex-direction: row;
- margin-top: 30%;
- background-color: whitesmoke;
-
-
+   
  }
  .section3{
    display: flex;
    flex-direction: row;
-   min-height: 20vh;
-   padding: 2rem;
-   margin-bottom: 7rem;
    justify-content: space-evenly;
    }
    .section4{
     display: flex;
     flex-direction: row;
     min-height: 20vh;
-    
+    padding-top: 1px;
     padding: 2rem;
     margin-bottom: 7rem;
     justify-content: space-evenly;
@@ -176,6 +166,7 @@
    height: 30vh;
    padding: 2rem;
    justify-content: space-between;
+   background-color: whitesmoke;
    }
  .column10{
      flex: 2 1 auto;
@@ -212,22 +203,28 @@ justify-content: space-between;
 .column10{
   flex: 2 1 auto;
 }
+.section2{
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+}
+footer{
+  display:flex;
+}
+footer ul{
+  padding-right: 500px;
+  padding-left: 200px;
+}
+.section12{
+  display: flex;
+}
+.section12 .png{
+  padding-right: 500px;
+  padding-left: 200px;
+}
 .column7{
   display: flex;
 }
-footer{
-  display: flex;
-}
-footer ul{
-  padding-left: 200px;
-  padding-right: 500px;
-}
-.section12{
-  display:flex;
-}
-.section12 .png{
-  padding-right:500px;
-  padding-left:200px;
-  margin-top: 100px;
-}
+
+
 
